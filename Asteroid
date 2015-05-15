@@ -1,0 +1,8 @@
+public class Asteroid {
+	public void collideWith(SpaceShip sp) {
+	    System.out.println("Asteroid hit a SpaceShip");
+	  }
+	  public void collideWith(GiantSpaceShip gsp) {
+	    System.out.println("Asteroid hit a GiantSpaceShip");
+	  }
+}
